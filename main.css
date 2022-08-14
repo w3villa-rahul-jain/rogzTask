@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+
 .hr-row{
-   background: #006FA6;
+   /* background: #006FA6; */
+   background: #01233B;
+   
    height: 3px;
     width: 90%;
     margin: auto;
@@ -13,7 +16,7 @@
 
 .h-style{
     margin: 30px 15px;
-    font-size: 48px;
+    font-size: 42px;
 }
 
 
@@ -34,7 +37,7 @@
 }
 
  .text-blue{
-    color: #006FA6;
+    color: #01233B;
 }
 
 .text-white{
@@ -52,7 +55,7 @@
     
 }
 .bg-blue{
-    background: #006FA6;
+    background: #01233B;
 }
 
 
