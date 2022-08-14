@@ -11,6 +11,12 @@
     margin: auto;
 }
 
+.h-style{
+    margin: 30px 15px;
+    font-size: 48px;
+}
+
+
 
 
 
@@ -41,6 +47,10 @@
     font-size: 20px;
 }
 
+.font-25{
+    font-size: 25px;
+    
+}
 .bg-blue{
     background: #006FA6;
 }
@@ -103,6 +113,35 @@ margin: 20px;
 }
 
 
+/* brand section */
+
+.brand-section{
+    margin: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.brand-box{
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    width: 31%;
+    background: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* brand section end */
+
+
 /* main section start */
 .main-section{
     display: grid;
@@ -116,8 +155,26 @@ margin: 20px;
 }
 
 
+/* pet gear section */
+.pet-gear{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+}
+
+.dog-image,.cat-image{
+    width: 90%;
+    padding: 20px;
+   
+}
 
 
+
+
+@media (max-width: 992px){
+ 
+ 
+}
 
 
 
@@ -125,12 +182,21 @@ margin: 20px;
 
 
 @media (max-width: 768px){
-    .main-section{
+    .main-section, .pet-gear{
         grid-template-columns: 1fr;
     }
     .font-change-sm{
         font-size: 30px;
     }
+    .brand-section{
+        margin: 10px 15px;
+    }
+    .brand-box{
+        width: 45%;
+        
+    }
+
+    
  
 }
 
@@ -141,6 +207,9 @@ margin: 20px;
     }
     .font-smd{
         font-size: 13px;
+    }
+    .brand-box{
+        width: 90%;
     }
  
 }
