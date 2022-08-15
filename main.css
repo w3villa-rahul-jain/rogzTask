@@ -59,6 +59,11 @@
 }
 
 
+.ptb-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
 
 .ptb-30{
     padding-top: 30px;
@@ -79,6 +84,9 @@
 
 .mt-30{
     margin-top: 30px;
+}
+.mb-20{
+    margin-bottom: 20px;
 }
 
 .m-20{
@@ -173,13 +181,75 @@ margin: 20px;
 
 
 
+.video-box{
+    width: 70%;
+    margin: auto;
+    
+}
+
+.products-gear{
+    width: 80%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.product-content{
+    align-self: center;
+}
+
+.carousel-gear{
+    width: 70%;
+    margin: 20px auto;
+    /* border:1px solid red;    */
+}
+
+
+/* test section css */
+.product-weight{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.weights{
+    width: 27%;
+    padding: 10px;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.w-size{
+    font-size: 40px;
+    /* padding-right: 10px; */
+}
+
+
+
+.weight-image{
+    padding: 30px;
+}
+
+
+
 
 @media (max-width: 992px){
  
  
 }
 
-
+.rogz-fan{
+    width: 70%;
+    margin: 30px auto;
+    
+}
 
 
 
@@ -188,9 +258,12 @@ margin: 20px;
     .main-section, .pet-gear{
         grid-template-columns: 1fr;
     }
+
+
     .font-change-sm{
         font-size: 30px;
     }
+
     .brand-section{
         margin: 10px 15px;
     }
@@ -199,6 +272,9 @@ margin: 20px;
         
     }
 
+    .products-gear{
+        grid-template-columns: 1fr;
+    }
     
  
 }
