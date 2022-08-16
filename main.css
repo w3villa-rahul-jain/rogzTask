@@ -5,7 +5,7 @@
 }
 
 .w-30{
-    width: 30%;
+    width: 40%;
 }
 
 .letter-spacing{
@@ -13,39 +13,32 @@
     word-spacing: 4px;
 }
 
-
 .hr-row{
-   /* background: #006FA6; */
    background: #01233B;
-   
    height: 3px;
-    width: 90%;
-    margin: auto;
+   width: 90%;
+   margin: auto;
 }
 
 .h-style{
-    margin: 30px 15px;
     font-size: 42px;
 }
-
-
-
-
 
 .center-text{
     text-align: center;
 }
+
 .font-alata{
     font-family: 'Alata', sans-serif;
  }
 
- .font-mono{
+
+.font-mono{
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    /* color: gray; */
 }
 
- .text-blue{
+.text-blue{
     color: #01233B;
 }
 
@@ -53,34 +46,35 @@
     color: white;
 }
 
-
-
 .font-20{
     font-size: 20px;
 }
 
 .font-25{
-    font-size: 25px;
-    
+    font-size: 25px;   
 }
+
 .bg-blue{
     background: #01233B;
 }
 
-
 .ptb-15{
     padding-top: 15px;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px;    
 }
 
 .ptb-30{
     padding-top: 30px;
-    padding-bottom: 30px;
-    
+    padding-bottom: 30px;    
 }
+
 .p-10{
     padding: 10px;   
+}
+
+.px-30{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .p-20{
@@ -94,12 +88,13 @@
 .mt-30{
     margin-top: 30px;
 }
+
 .mb-20{
     margin-bottom: 20px;
 }
 
 .m-20{
-margin: 20px;    
+    margin: 20px;    
 }
 
 .font-18{
@@ -109,7 +104,6 @@ margin: 20px;
 .font-40{
     font-size: 40px;
 }
-
 
 .cursor-p{
     cursor: pointer;
@@ -123,7 +117,6 @@ margin: 20px;
     border-radius: 50px;
 }
 
-
 .box-shadow{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
@@ -132,19 +125,14 @@ margin: 20px;
     box-shadow: 0 15px 20px rgba(0,111,166,0.5);
 }
 
-
 /* brand section */
-
 .brand-section{
-    margin: 20px 40px;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
 }
 
-
-
 .brand-box{
-    /* padding: 10px 10px; */
     text-align: center;
     border-radius: 80px;
     color: white;
@@ -157,11 +145,7 @@ margin: 20px;
     justify-content: center;
     align-items: center;
 }
-
-
-
 /* brand section end */
-
 
 /* main section start */
 .main-section{
@@ -169,39 +153,31 @@ margin: 20px;
     grid-template-columns: 1fr 1fr;
 }
 
-
 .text-section{
     padding: 40px;
-    align-self: center;
-    
+    align-self: center;    
 }
-
 
 /* pet gear section */
 .pet-gear{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 20px auto;
+    padding: 10px 30px;
 }
 
-.dog-image,.cat-image{
-    width: 90%;
-    padding: 20px;
-   
+.image-gear{
+    border-radius: 60px;
+    box-shadow: 0 0 25px white;
 }
-
-
 
 .video-box{
     width: 70%;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .products-gear{
     width: 80%;
     margin: 20px auto;
-    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -213,71 +189,69 @@ margin: 20px;
 .carousel-gear{
     width: 70%;
     margin: 20px auto;
-    /* border:1px solid red;    */
 }
-
 
 /* test section css */
 .product-weight{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    padding: 20px;
 }
 
 .weights{
-    width: 27%;
+    width: 31.5%;
     padding: 10px;
-    /* border: 1px solid red; */
     margin: auto;
     display: flex;
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;    
 }
 
 .w-size{
     font-size: 40px;
-    /* padding-right: 10px; */
 }
-
-
 
 .weight-image{
     padding: 30px;
 }
 
-
-
-
-@media (max-width: 992px){
- 
- 
-}
-
 .rogz-fan{
     width: 70%;
-    margin: 30px auto;
-    
+    margin: 30px auto;    
 }
 
-
-
+@media (max-width: 992px){ 
+    .main-section{
+        grid-template-columns: 1fr;
+    }
+}
 
 @media (max-width: 768px){
     .main-section, .pet-gear{
         grid-template-columns: 1fr;
     }
 
-
     .font-change-sm{
         font-size: 30px;
+    }
+
+    .font-smd{
+        font-size: 13px;
+        line-height: 18px;
+        word-spacing: 5px;
+    }
+
+    .p-20-sm{
+        padding-left: 20px;
+        padding-right: 20px;        
     }
 
     .brand-section{
         margin: 10px 15px;
     }
+
     .brand-box{
         width: 45%;
         height: fit-content;
@@ -288,37 +262,35 @@ margin: 20px;
     .products-gear{
         grid-template-columns: 1fr;
     }
-    /* .product-weight{
-        
-        flex-direction: column;
-    } */
+    
     .weights{
         width: 45%;
     }
+
     .h-font-sm{
         font-size: 20px;
     }
-    
- 
 }
 
-@media (max-width: 600px){
- 
+
+@media (max-width: 600px){ 
     .font-change-sm{
         font-size: 25px;
     }
+
     .font-smd{
         font-size: 13px;
-        line-height: 15px;
-        word-spacing: 4px;
+        line-height: 18px;
+        word-spacing: 5px;
     }
+
     .brand-box{
         width: 90%;
     }
+
     .weights{
         width: 90%;
     }
- 
 }
 
 
