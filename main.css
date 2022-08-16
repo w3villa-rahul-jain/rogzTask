@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.w-30{
+    width: 30%;
+}
+
+.letter-spacing{
+   line-height: 25px;
+    word-spacing: 4px;
+}
+
 
 .hr-row{
    /* background: #006FA6; */
@@ -135,14 +144,15 @@ margin: 20px;
 
 
 .brand-box{
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     text-align: center;
-    border-radius: 50px;
+    border-radius: 80px;
     color: white;
     width: 31%;
+    height: 150px;
     background: white;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,8 +171,9 @@ margin: 20px;
 
 
 .text-section{
-    padding: 20px;
+    padding: 40px;
     align-self: center;
+    
 }
 
 
@@ -269,11 +280,23 @@ margin: 20px;
     }
     .brand-box{
         width: 45%;
-        
+        height: fit-content;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     .products-gear{
         grid-template-columns: 1fr;
+    }
+    /* .product-weight{
+        
+        flex-direction: column;
+    } */
+    .weights{
+        width: 45%;
+    }
+    .h-font-sm{
+        font-size: 20px;
     }
     
  
@@ -286,8 +309,13 @@ margin: 20px;
     }
     .font-smd{
         font-size: 13px;
+        line-height: 15px;
+        word-spacing: 4px;
     }
     .brand-box{
+        width: 90%;
+    }
+    .weights{
         width: 90%;
     }
  
@@ -301,6 +329,9 @@ margin: 20px;
     }
     .font-smd{
         font-size: 12px;
+    }
+    .weights{
+        width: 90%;
     }
 }
 
