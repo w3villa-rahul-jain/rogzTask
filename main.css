@@ -2,6 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+.big-container{
+    padding: 50px 20px;
+
+}
+
+.padding-m-70{
+    margin: 14px;
+    padding: 70px 15px;
+}
+
+.m-35-10{
+    margin: 35px 10px;
+}
+
+
+
+
+.container{
+    border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    position: relative;
+
+}
+.image-test{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
 
 .w-30{
@@ -28,13 +59,10 @@
     text-align: center;
 }
 
-.font-alata{
-    font-family: 'Alata', sans-serif;
- }
+
 
 
 .font-mono{
-    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
@@ -122,7 +150,7 @@
 }
 
 .shadow-blue{
-    box-shadow: 0 15px 20px rgba(0,111,166,0.5);
+    box-shadow: 0 15px 20px rgba(0,111,166,0.2);
 }
 
 /* brand section */
@@ -153,10 +181,7 @@
     grid-template-columns: 1fr 1fr;
 }
 
-.text-section{
-    padding: 40px;
-    align-self: center;    
-}
+
 
 /* pet gear section */
 .pet-gear{
@@ -167,7 +192,7 @@
 
 .image-gear{
     border-radius: 60px;
-    box-shadow: 0 0 25px white;
+    box-shadow: 0 0 25px rgba(0,111,166,0.2);
 }
 
 .video-box{
@@ -184,6 +209,7 @@
 
 .product-content{
     align-self: center;
+    box-shadow: 0 0 20px rgba(0,111,166,0.2);
 }
 
 .carousel-gear{
@@ -231,6 +257,13 @@
 @media (max-width: 768px){
     .main-section, .pet-gear{
         grid-template-columns: 1fr;
+    }
+    .container{
+        width: 100%;   
+    }
+
+    .image-test{
+        height: 100%;
     }
 
     .font-change-sm{
