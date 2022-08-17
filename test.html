@@ -29,13 +29,35 @@
             left: 10px;
 
         }
+
+        h1{
+            position: relative;
+            text-align: center;
+            
+        }
+
+        h1::before{
+        content: "";
+        width: 100px;
+        height: 2px;
+        background-color: black;
+        position: absolute;
+        bottom: -10px;
+         
+    }
+
+  
+
+  
+
+
+
+
+
     </style>
 </head>
 <body>
-    <div class="big-container">
-    <div class="container">
-    <img src="./main/fatty-corgi-Zn5chZcnFRA-unsplash.jpg" alt="img" width="100%" class="image-test">
-    </div>
+<h1 class="heading-before">hello world</h1>  
 </div>
 </body>
 </html>
