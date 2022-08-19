@@ -25,47 +25,15 @@
     position: relative;
 }
 
-.m-auto{
-    margin: auto;
-}
-
-.pr-60{
-    padding-right: 60px;
-}
-
-.container2{
-    border: 2px solid black;
-    width: 200px;
-    height: 100px;
-    position: relative;
-}
-
-.image-test2{
-    position: absolute;
-    bottom: 10px;
-    left: 10px;    
-}
-
 .image-test{
     position: absolute;
     bottom: 20px;
     left: 20px;
 }
 
-.w-30{
-    width: 40%;
-}
-
 .letter-spacing{
    line-height: 25px;
     word-spacing: 4px;
-}
-
-.hr-row{
-   background: #01233B;
-   height: 3px;
-   width: 90%;
-   margin: auto;
 }
 
 .h-style{
@@ -119,9 +87,6 @@
     padding-right: 30px;
 }
 
-.mt-20{
-    margin-top: 20px;
-}
 
 .p-20{
     padding: 20px;   
@@ -137,10 +102,6 @@
 
 .mb-20{
     margin-bottom: 20px;
-}
-
-.m-20{
-    margin: 20px;    
 }
 
 .font-18{
@@ -316,10 +277,6 @@
     padding-left: 10px;
 }
 
-.w-size{
-    font-size: 40px;
-}
-
 .weight-image{
     padding: 30px;
 }
@@ -419,7 +376,7 @@
         line-height: 18px;
         word-spacing: 5px;
     }
-    .brand-box{
+    .brand-box,.weights{
         width: 90%;
     }
     .other-box{
@@ -433,9 +390,6 @@
     .ptb-smd{
         padding-top: 5px;
         padding-bottom: 5px;
-    }
-    .weights{
-        width: 90%;
     }
 }
 
