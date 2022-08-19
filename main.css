@@ -5,14 +5,8 @@
     font-family: 'Alata', sans-serif;    
 }
 
-
-
-
-
-
 .big-container{
     padding: 50px 20px;
-
 }
 
 .padding-m-70{
@@ -23,9 +17,6 @@
 .m-35-10{
     margin: 35px 10px;
 }
-
-
-
 
 .container{
     border: 2px solid black;
@@ -42,7 +33,6 @@
     padding-right: 60px;
 }
 
-
 .container2{
     border: 2px solid black;
     width: 200px;
@@ -53,8 +43,7 @@
 .image-test2{
     position: absolute;
     bottom: 10px;
-    left: 10px;
-    
+    left: 10px;    
 }
 
 .image-test{
@@ -86,10 +75,6 @@
 .center-text{
     text-align: center;
 }
-
-
-
-
 
 .text-blue{
     color: #01233B;
@@ -174,8 +159,6 @@
     border: 1px solid white;
 }
 
-
-
 .box-shadow{
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
@@ -203,9 +186,7 @@
     height: 1px;
     background-color: black;
     position: absolute;
-    top: -10px;
-    
-    
+    top: -10px;    
 }
 
 .heading-before::after{
@@ -217,11 +198,7 @@
     bottom: 0px;
     top: 100%;
     left: 45%;
-    
 }
-
-
-
 
 .brand-box{
     text-align: center;
@@ -242,8 +219,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
-
 
 /* pet gear section */
 .pet-gear{
@@ -283,16 +258,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* padding: 20px; */
 }
 
 .border-left{
     border-left: 5px solid #01233B;
-
 }
-
-
-   
 
 .weight-section{
     display: flex;
@@ -318,9 +288,9 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    margin: 10px;
-    
+    margin: 10px;    
 }
+
 .margin-50{
     margin-right: -70px;
 }
@@ -335,7 +305,6 @@
     margin-top: -90px;
     margin-bottom: 70px;
 }
-
 
 .sizes{
     width: 30%;
@@ -374,8 +343,7 @@
     }
     .weight-items{
         width: 100%;
-    }
-    
+    }    
 }
 
 @media (max-width: 768px){
@@ -385,45 +353,34 @@
     .container{
         width: 100%;   
     }
-   
-
     .image-test{
         height: 100%;
     }
-
     .font-change-sm{
         font-size: 30px;
     }
-
     .margin-0{
         margin: 10px;
     }
-
- 
     .p-20-sm{
         padding-left: 20px;
         padding-right: 20px;        
     }
-
     .brand-section{
         margin: 10px 15px;
     }
-
     .brand-box{
         width: 45%;
         height: fit-content;
         padding-top: 5px;
         padding-bottom: 5px;
     }
-
     .products-gear{
         grid-template-columns: 1fr;
     }
-    
     .weights{
         width: 45%;
     }
-
     .h-font-sm{
         font-size: 20px;
     }
@@ -432,7 +389,6 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-
     .hidden{
         width: 250px;
         height: 250px;
@@ -448,13 +404,11 @@
     .font-change-sm{
         font-size: 25px;
     }
-
     .font-smd{
         font-size: 14px;
         line-height: 18px;
         word-spacing: 5px;
     }
-
     .brand-box{
         width: 90%;
     }
@@ -463,16 +417,13 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-
     .pb-smd{
         padding-bottom: 0px;
     }
-
     .ptb-smd{
         padding-top: 5px;
         padding-bottom: 5px;
     }
-
     .weights{
         width: 90%;
     }
@@ -480,7 +431,7 @@
 
 
 @media (max-width: 425px){
- 
+
     .font-change-sm{
         font-size: 20px;
     }
