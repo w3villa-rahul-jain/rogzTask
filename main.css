@@ -343,6 +343,17 @@
     .weight-items{
         width: 100%;
     }    
+    .margin-0{
+        margin: 10px;
+    }
+    .d-none{
+        display: none;
+    }
+
+    .other-box{
+        margin-left: 57px;
+    }
+   
 }
 
 @media (max-width: 768px){
