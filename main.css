@@ -385,6 +385,7 @@
     .container{
         width: 100%;   
     }
+   
 
     .image-test{
         height: 100%;
@@ -395,7 +396,7 @@
     }
 
     .margin-0{
-        margin: 0px;
+        margin: 10px;
     }
 
  
@@ -437,6 +438,9 @@
         height: 250px;
         margin: auto;
     }
+    .d-none{
+        display: none;
+    }
 }
 
 
@@ -446,7 +450,7 @@
     }
 
     .font-smd{
-        font-size: 13px;
+        font-size: 14px;
         line-height: 18px;
         word-spacing: 5px;
     }
@@ -481,7 +485,7 @@
         font-size: 20px;
     }
     .font-smd{
-        font-size: 12px;
+        font-size: 15px;
     }
     .weights{
         width: 90%;
